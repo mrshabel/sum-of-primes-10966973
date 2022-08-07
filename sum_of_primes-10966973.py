@@ -3,7 +3,7 @@
 num = int(input("Enter your number here: \n"))
 prime_sum = 0
 #The variable prime_sum is set to 0 in order to accumulate the sum of results after a successful loop is True
-for i in range(2, num):
+for i in range(2, num + 1):
     prime = True
 #The range closes at (i//2 + 1). This is to ensure that the compiler doesnt take long to produce our result.
     for j in range(2, i//2 + 1):
